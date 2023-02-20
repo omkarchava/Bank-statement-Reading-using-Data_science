@@ -30,9 +30,9 @@ Between_500_to_1000=0
 
 # Iterate all rows using DataFrame.iterrows()
 
+
 for index, row in df.iterrows():
-    print (index,row["Withdrawal Amt."],row["Deposit Amt."])
-    
+    print (index,row["Withdrawal Amt."],row["Deposit Amt."]) 
     #Calculate total Credidted and Debidted amount and Saving.
     Debited=Debited+(row["Withdrawal Amt."])
     credited=credited+(row["Deposit Amt."])
