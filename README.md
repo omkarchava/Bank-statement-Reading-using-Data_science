@@ -18,6 +18,7 @@ print(df)
 ######################################################################################
 
 #Intilize the values in order to get sum of them.
+
 Debited=0
 credited=0
 EMI=0
@@ -27,6 +28,7 @@ Between_300_to_500=0
 Between_500_to_1000=0
 
 # Iterate all rows using DataFrame.iterrows()
+
 for index, row in df.iterrows():
 
     # To print all the row values 
