@@ -1,8 +1,9 @@
 # Data_science
 #Use Anaconda and use Jupyter extension to run this code
 
-####################################################################################
+
 # Import pandas so you can read the Excel file.
+
 import pandas as pd
 
 #Use below command to read the Excel
@@ -30,8 +31,6 @@ Between_500_to_1000=0
 # Iterate all rows using DataFrame.iterrows()
 
 for index, row in df.iterrows():
-
-    # To print all the row values 
     print (index,row["Withdrawal Amt."],row["Deposit Amt."])
     
     #Calculate total Credidted and Debidted amount and Saving.
